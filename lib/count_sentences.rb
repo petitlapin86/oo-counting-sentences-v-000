@@ -17,6 +17,6 @@ end
   end
 
   def count_sentences
-self.string.strip.split(/\w[?!.]/).length
+self.strip.split(/\w[?!.]/).length
   end
 end
